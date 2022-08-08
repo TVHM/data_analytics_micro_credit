@@ -1,0 +1,17 @@
+Name: ___________________________________________
+Lesson 5: Joins and Unions
+
+1. Join the film to the film_actor table.
+SELECT * FROM FIILM
+INNER JOIN FILM_ACTOR
+ ON FILM .FILM=FIILM.FILM_ACTOR
+ 
+2. Join the actor table to the film_actor table.
+SELECT * FROM FIILM
+
+3. Try to join the actor, film_actor, and film table together (3 joins!)
+SELECT * FROM ACTOR
+INNER JOIN ACTOR ON ACTOR.ACTOR_ID =ACTOR.FILM_ACTOR_ID
+INNER JOIN * FILM
+ON FILM.FILM_ACTOR=FILM_ACTOR
+
